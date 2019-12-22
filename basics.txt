@@ -1,0 +1,26 @@
+
+
+What is tag / element?
+ Html, head, body, h1, p are tags.
+
+What is attribute?
+    Properties used to change element behaviour 
+    Ex: style, class, href, src ... etc
+    Rules:
+        <element  attribute1="" attribute2="" > </element>
+
+What is div?
+    An element which takes display:block by default.
+
+What is span?
+    An element which takes display:inline-block by default.
+
+What is css?
+    If all properties in style attributes are moved to a separate file, then that file is called css.
+
+==================================================================
+
+Types of styles
+1. Inline style
+2. Internal style
+3. External style
