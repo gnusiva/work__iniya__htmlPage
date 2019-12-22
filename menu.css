@@ -1,0 +1,114 @@
+/*   
+Common
+*/
+
+.fullBGcolor {
+	margin-left: 20%;
+	margin-right: 20%;
+	background: #70C1B3;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.firstRow--flex {
+	display: flex;
+}
+
+.firstRow--title {
+	font-weight: 600;
+	color: #FF1654;
+}
+
+.boxStyle {
+	border: 1px solid  #FF1654;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.boxStyle:hover {
+	background: #FF1654;
+	color: white;
+}
+
+.boxStyle--active {
+	background: #FF1654;
+	color: white;
+}
+
+.moveToRight {
+	margin-left: auto;
+}
+
+.firstRow {
+	padding-top: 20px;
+	padding-left: 10px;
+    padding-right: 10px;
+}	
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+/* =============== */
+
+.menuRow {
+	margin-top: 20px;
+}
+
+.menuContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.eachMenu {
+	display: flex;
+	padding: 20px;
+}
+
+.eachMenu:hover {
+	border-radius: 20px;
+	box-shadow: inset 0 0 10px #FF1654;
+}
+
+.eachMenu:hover .menuPrice {
+	color: #FF1654;
+}
+
+.menuPrice {
+	margin-left: auto;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.eachMenu--icon {
+	padding-right: 30px;
+}
+
+.coffee__icon--style {
+	width: 125px;
+}
+
+.barger__icon--style {
+	width: 125px;
+}
+
+.cake__icon--style {
+	width: 125px;
+}
+
+.pizza__icon--style {
+	width: 125px;
+}
